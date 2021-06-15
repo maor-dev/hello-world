@@ -12,7 +12,9 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Newpost from './pages/Newpost'
 import Postpage from './pages/Postpage'
+import Weather from './pages/Weather'
 import Sidebar from './components/Sidebar'
+
 
 function App() {
   return (
@@ -27,8 +29,14 @@ function App() {
           <Route path="/Newpost">
             <Newpost/>
           </Route>
+          <Route path="/Postpage">
+            <Postpage/>
+          </Route>
           <Route path="/About">
             <About />
+          </Route>
+          <Route path="/weather">
+            <Weather />
           </Route>
           <Route path="/">
             <Home />

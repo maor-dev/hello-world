@@ -147,6 +147,12 @@ export default function PersistentDrawerLeft() {
         <ListItem button component="a" href='/Newpost' key="/Newpost"> 
         <ListItemText primary='Newpost' /> </ListItem>
 
+        <ListItem button component="a" href='/Postpage' key="/Postpage"> 
+        <ListItemText primary='Postpage' /> </ListItem>
+
+        <ListItem button component="a" href='/Weather' key="/Weather"> 
+        <ListItemText primary='lets check the weather' /> </ListItem>
+
         <ListItem button component="a" href='/Login' key="/Login"> 
         <ListItemText primary='Login' /> </ListItem>
 
